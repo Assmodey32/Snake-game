@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+#game {
+    background: #484848;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-canvas {
+    display: block;
+    border-radius: 5px;
+}
+
+.canvas-wrapper {
+    background-color: #484848;
+    border-radius: 5px;
+    border: 10px solid #7CFC00;
+}
